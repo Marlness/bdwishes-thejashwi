@@ -1,0 +1,38 @@
+body {
+    background-image: linear-gradient(black, white);
+    background-image:url("./assets/images/BB.avif") ;
+    margin: 0;
+    padding: 0;
+    background-size: cover; 
+      background-repeat: no-repeat; 
+      background-position: center; 
+      height: 100vh;
+      width: 100vw; 
+  }
+  h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+  p{
+    font-size:3rem;
+  }
+  
+  .poster {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+  }
+  
+  .motivation-img {
+    border: 5px solid white;
+    width: 50%;
+    height: 50%;
+  }
+  .b{text-shadow: -1px 1px 0 grey,
+    1px 1px 0 grey,
+    1px -1px 0 grey,
+    -1px -1px 0 grey;
+  }
